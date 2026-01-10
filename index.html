@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Link & Think 🧠</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="title">Link &amp; Think <span class="brain">🧠</span></h1>
+    <p class="subtitle">Find 3 groups of 3. Click 3 cards, then submit.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="panel">
+      <div class="controls">
+        <button id="submitBtn" class="btn btn-primary" type="button" disabled>Submit (0/3)</button>
+        <button id="shuffleBtn" class="btn btn-ghost" type="button">Reset</button>
+      </div>
+
+      <div id="message" class="message" aria-live="polite"></div>
+
+      <div id="grid" class="grid" aria-label="Link & Think grid"></div>
+
+      <div class="found">
+        <div class="found-title">Solved Groups</div>
+        <div id="foundList" class="found-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
