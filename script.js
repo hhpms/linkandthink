@@ -12,16 +12,16 @@
  */
 const GROUPS = [
   {
-    name: "Career Opportunities for Students",
-    words: ["Work-Based Learning", "Job Shadowing", "Internship"],
+    name: "ISPO Computing Model",
+    words: ["Input/Output", "Storage", "Processing"],
   },
   {
-    name: "Digital Skills We'll be Learning",
-    words: ["Word Processing", "Multimedia Presentations", "Spreadsheets and Databases"],
+    name: "Keeping your body and eyes comfortable while working on a computer",
+    words: ["Ergonomics", "20-20-20 Rule", "Repetitive Strain Injury"],
   },
   {
-    name: "Planning Your Future",
-    words: ["Goals", "Education", "Career Path"],
+    name: "Searching for internet sources",
+    words: ["Reliable Source", "Skimming and Scanning", "Search Modifiers"],
   },
 ];
 /* =========================
