@@ -12,16 +12,16 @@
  */
 const GROUPS = [
   {
-    name: "Career Opportunities for Students",
-    words: ["Work-Based Learning", "Job Shadowing", "Internship"],
+    name: "Computational Thinking Practices",
+    words: ["Decomposition", "Pattern Recognition", "Abstraction"],
   },
   {
-    name: "Digital Skills We'll be Learning",
-    words: ["Word Processing", "Multimedia Presentations", "Spreadsheets and Databases"],
+    name: "Algorithm Actions",
+    words: ["Input", "Process", "Output"],
   },
   {
-    name: "Planning Your Future",
-    words: ["Goals", "Education", "Career Path"],
+    name: "Binary Vocabulary",
+    words: ["Bit", "Byte", "Base 2"],
   },
 ];
 /* =========================
